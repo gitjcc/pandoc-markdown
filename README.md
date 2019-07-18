@@ -18,7 +18,7 @@ pandoc -s ./markdown/resume.md -o ./output/resume.html -c ../css/resume.css
 # If you want css file contained into html file you can use --self-contained
 pandoc -s ./markdown/resume.md -o ./output/resume.html -c ./css/resume.css --self-contained
 
-# to pdf
+# html to pdf
 wkhtmltopdf ./output/resume.html ./output/resume.pdf
 ```
 
